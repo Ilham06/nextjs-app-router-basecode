@@ -1,7 +1,14 @@
-import React from 'react'
+'use client'
 
-export default function page() {
+import React from 'react'
+import Button from '@mui/material/Button';
+import { useRouter } from 'next/navigation';
+
+export default function Page() {
+  const router = useRouter()
   return (
-    <div>User Page</div>
+    <div>
+      <Button title='create user' variant='contained' onClick={() => router.push('/user/create')}>Create User</Button>
+    </div>
   )
 }

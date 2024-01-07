@@ -26,9 +26,9 @@ body {
   font-family: "Inter", sans-serif !important;
 }
 
-.MuiDrawer-paper {
+/* .MuiDrawer-paper {
   border-style: dashed !important;
-}
+} */
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
